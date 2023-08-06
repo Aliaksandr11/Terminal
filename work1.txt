@@ -34,4 +34,4 @@
                                                                                 mv text1.txt text2.txt A4
                                                                                 cntl + c
                                                                                 bash scrypt1.sh                                              
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
