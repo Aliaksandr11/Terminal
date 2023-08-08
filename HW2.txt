@@ -53,38 +53,20 @@
  the seConD 2
 
  14. Сделать текстовый файл tf_4.txt в котором будет 15 строк 
- cat > tf_4.txt
- -Petya
- -Vasya
- -Gena
- -Gosha
- -Miha
- -Kuzya
- -Bekky
- -Chernish
- -Ksyha
- -Masha
- -Sanek
- -Rijik
- -Baikal
- -Ima
- -Zara
+ #!/bib/bash
+ touch tf_4.txt
+ for ((counter=1; counter <=15; counter ++))
+ do
+ echo "Number is $counter"
+ done > tf_4.txt
 
  15. Сделать текстовый файл tF_5.txt в котором будет 13 строк
- cat > tF_5.txt
- -Petya
- -Vasya
- -Gena
- -Gosha
- -Miha
- -Kuzya
- -Bekky
- -Chernish
- -Ksyha
- -Masha
- -Sanek
- -Rijik
- -Baikal
+ #!/bin/bash
+ touch tF_5.txt
+ for ((counter=1; counter <=13; counter ++))
+ do 
+ Echo "Number is $counter"
+ done > tF_5.txt
 
  16. Вывести список всех файлов в папке.
  ls -l
