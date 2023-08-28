@@ -75,7 +75,7 @@
  cat inner_dir_1/tf_3.txt
  
  19. Найти путь к файлу tf_4.txt  
- readlink -f tf_4.txt
+ find $PWD -name tf_4.txt
 
  20. Отчистить файл tf_4.txt от содержимого без удаления самого файла. 
  > inner_dir_1/tf_4.txt
